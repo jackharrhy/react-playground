@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 600px;
+  margin: 10rem auto;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.myForm {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.myForm input[type=text] {
+  padding: 0.8rem;
+  width: 75%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-bottom: 0.5rem;
+}
+
+.myTable {
+  width: 100%;
+}
+
+.myTable th, tr, td {
+  text-align: left;
+}
+
+.myTable thead th {
+  background-color: #ccc;
+}
+
+.myTable tbody tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
