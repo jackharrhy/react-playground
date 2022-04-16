@@ -1,0 +1,40 @@
+.testContent {
+     background-color: #fff;
+     max-width: 600px;
+     margin: 5rem auto;
+     border: 1px solid #ccc;
+     padding: 1rem;
+     border-radius: 10px;
+}
+
+.header button {
+   padding: 0.5rem 1rem;
+   margin: 0 1rem;
+   border: none;
+   background-color: #0080ff;
+   color: #fff;
+   border-radius: 5px;
+   text-transform: uppercase;
+}
+
+.header {
+    text-align: center;
+}
+
+.person {
+    text-align: center;
+}
+
+.counter {
+    text-align: center;
+}
+
+.counter button {
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    border: none;
+    background-color: #0080ff;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+}

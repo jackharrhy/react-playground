@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import '../../index.css'
+import './Testing.css'
 
 const MyCounter = () => {
     const [count, setCount] = useState(0);
@@ -40,9 +40,8 @@ const user = {
 
 const App = () => {
   return (
-    <div>
+    <div className='testContent'>
       <div className="header">
-        <h1>React Playground</h1>
         <MyButton />
       </div>
       <div className='person'>
