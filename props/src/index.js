@@ -12,5 +12,6 @@ root.render(
     <StrictMode>
         <Testing />
         <Think />
+        <Test />
     </StrictMode>
 )
