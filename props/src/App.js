@@ -1,9 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './index.css'
+
+const MyCounter = () => {
+    const [count, setCount] = useState(0);
+    function handleCount() {
+        setCount(count +1);
+    }
+    return (
+        <button onClick={handleCount}>Clicked {count} times</button>
+    )
+}
 
 const MyButton = () => {
     function handleClick() {
-        alert('You clicked me!')
+        alert('You cliked the button!')
     }
     return (
         <button onClick={handleClick}>Click Here</button>
@@ -43,6 +53,10 @@ const App = () => {
         <ul>
             {listItems}
         </ul>
+      </div>
+      <div className='counter'>
+          <MyCounter />
+          <MyCounter />
       </div>
     </div>
   );
