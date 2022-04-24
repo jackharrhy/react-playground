@@ -9,6 +9,7 @@ import Showhide  from './components/showhide/Showhide'
 import Inputshow from './components/inputshow/Inputshow'
 import Valuechange from './components/valuechange/Valuechange'
 import Counter from './components/counter/Counter'
+import Userdata from './components/userdata/Userdata'
 
 const createEelement = document.querySelector('#root')
 const root = createRoot(createEelement)
@@ -23,5 +24,6 @@ root.render(
       <Inputshow />
       <Valuechange />
       <Counter />
+      <Userdata />
   </StrictMode>
 );
