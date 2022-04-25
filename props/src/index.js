@@ -11,6 +11,7 @@ import Valuechange from './components/valuechange/Valuechange'
 import Counter from './components/counter/Counter'
 import Userdata from './components/userdata/Userdata'
 import Addnumbers from './components/addnumbers/Addnumbers'
+import Time from './components/time/Time'
 
 const createEelement = document.querySelector('#root')
 const root = createRoot(createEelement)
@@ -27,5 +28,6 @@ root.render(
       <Counter />
       <Userdata />
       <Addnumbers />
+      <Time />
   </StrictMode>
 );
