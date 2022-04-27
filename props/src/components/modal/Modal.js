@@ -14,7 +14,8 @@ const Modal = () => {
 
   return (
     <div className="container">
-      <h2>Modal</h2>
+      <h2>Modal Test</h2>
+      <p>On button click user should see popup overlay showing overlay page with information</p>
       <button onClick={() => setModal(true)}>Click Here</button>
       {modal && (
         <div className="Modal">
