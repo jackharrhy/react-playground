@@ -12,7 +12,7 @@ const Inputshow = () => {
       value={value}
       onChange={(e) => setValue(e.target.value)}
       />
-      <h2>{value}</h2>
+      <h2 style={{textDecoration: 'underline wavy 2px'}}>{value}</h2>
     </div>
   );
 }
