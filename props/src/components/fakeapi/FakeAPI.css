@@ -1,0 +1,31 @@
+.loading {
+  color: purple;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.error {
+  color: red;
+}
+
+.user-list code {
+  background-color: black;
+  color: white;
+  padding: 0.2rem;
+  opacity: 0.5;
+}
+
+.user-list li {
+  margin-top: 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+form input {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
