@@ -9,9 +9,11 @@ const Valuechange = () => {
         <input 
         type='text'
         placeholder='Enter Text...'
+        value={value}
         onChange={(e) => setValue(e.target.value)}
+        style={{marginRight: '1rem'}}
         />
-        <button style={{marginLeft: '1rem'}} disabled={value.length < 1}>Submit</button>
+        <button disabled={value.length < 1}>Submit</button>
     </div>
   )
 }

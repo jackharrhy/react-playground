@@ -9,7 +9,7 @@ const Showhide = () => {
         <button onClick={() => setShow(!show)}>
           {show ? 'Hide Element' : 'Show Element'}
         </button>
-        {show && <h2 style={{color: 'red', textAlign: 'center'}}>That's Amazing!</h2>}
+        {show && <h2 style={{color: 'red'}}>That's Amazing!</h2>}
     </div>
   )
 }
